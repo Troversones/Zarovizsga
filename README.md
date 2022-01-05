@@ -1,2 +1,2 @@
 # Zarovizsga
-Nadoba
+Nadoba Online game shop
