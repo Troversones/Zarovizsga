@@ -12,7 +12,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
     if(!empty($username) && !empty($password) && !is_numeric($username))
     {
         
-        $query = "select * from felhasznalok where password = '$password' limit 1";
+        $query = "select * from felhasznalok where password = '$password' and username = '$username' limit 1";
 
         $result = mysqli_query($con, $query);
 
@@ -57,7 +57,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
         <div class="form-box">
             <div class="button-box">
                 <div id="btn"> </div>
-                <button type="button" class="toggle-btn" onclick="login()"><a href="registration.html" class="link">Register Here!</a></button>
+                <button type="button" class="toggle-btn" onclick="login()"><a href="registration.php" class="link">Register Here!</a></button>
                 
             </div>
             <div class="social">
