@@ -12,9 +12,7 @@
 
 <body>
     <div class="container">
-        <header>
-
-        </header>
+        <header><img src="kepek/nad2.png" alt="headerimg" class="header-img"></header>
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
                 <a class="navbar-brand" href="mainpage.php"><img src="kepek/favicon.ico" class="logo-image" alt="Icon"></a>
@@ -30,6 +28,14 @@
                 </div>
             </div>
         </nav>
+        <div class="row content">
+            <div class="col-3">
+                xd
+            </div>
+            <div class="col-9">
+                xd
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>

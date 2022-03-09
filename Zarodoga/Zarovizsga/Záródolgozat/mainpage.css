@@ -1,10 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
 body{
     background-image: url('kepek/bg2.png');
 }
+.container{
+    margin-top: 25px;
+    font-family: 'League Gothic', sans-serif;
+}
 .navbar-brand,.nav-link{
     color: #cccc00 !important;
+    font-size: 25pt;
 }
 .logo-image{
     width: 40px;
     height: 40px;
+}
+.header-img{
+    width: 100%;
+}
+.content{
+    background-color: #f6e2b9;
+    margin-left: 15px;
 }
