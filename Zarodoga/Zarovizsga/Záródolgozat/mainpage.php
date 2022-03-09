@@ -1,3 +1,14 @@
+<?php
+session_start();
+
+include("kapcs.php");
+include("functions.php");
+
+dbkapcs();
+
+
+$user_data = check_login($con);
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -24,13 +35,14 @@
                         <a class="nav-link active" aria-current="page" href="mainpage.php">Home</a>
                         <a class="nav-link" href="#">Games</a>
                         <a class="nav-link" href="#">Terms Of Use</a>
+                        <a class="nav-link" href="#">Orders</a>
                     </div>
                 </div>
             </div>
         </nav>
         <div class="row content">
             <div class="col-3">
-                xd
+            ⠀   Welcome, <?php echo $user_data['username'];?>
             </div>
             <div class="col-9">
                 xd
