@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
+body{
+    background-image: url('kepek/bg2.png');
+}
+.navbar{
+    background-color: rgba(13, 13, 13, .7);
+}
+.container{
+    font-family: 'League Gothic', sans-serif;
+    margin-top: 20px;
+    width: 850px;
+    border: solid 3px #0d0d0d;
+}
+.navbar-brand,.nav-link{
+    color: #cccc00 !important;
+    font-size: 25pt;
+}
+.logo-image{
+    width: 40px;
+    height: 40px;
+}
+.header-img{
+    width: 100%;
+}
+.headerxd{
+    background-image: url('kepek/nad2.png');
+    height: 350px;
+    background-size: cover;
+    background-repeat: no-repeat; 
+    border-bottom: solid 3px #0d0d0d;
+}
+.content{
+    background-color: #ffae42;
+    border-top: solid 3px #0d0d0d;
+}
+ul {
+    font-size: 30pt;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ffae42;
+  }
+  
+  li a {
+    color:#00001a;
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  li a:hover {
+    background-color: #555;
+    color: white;
+  }
+  div.col-3.linkcont{
+      border-right: solid 3px #0d0d0d;
+  }
