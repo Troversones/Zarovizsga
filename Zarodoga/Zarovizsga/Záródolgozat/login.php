@@ -18,7 +18,6 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
 
         if($result)
         {
-            
         if(mysqli_num_rows($result) === 1)
         {
             $user_data = mysqli_fetch_assoc($result);
@@ -27,11 +26,7 @@ if($_SERVER['REQUEST_METHOD'] == "POST")
                 $_SESSION['user_id'] = $user_data['user_id'];
                 header("Location: mainpage.php");
                 die;
-        
-
-
             }
-
         }
         }
         echo '<script>alert("Wrong username or password!")</script>';
