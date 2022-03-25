@@ -34,8 +34,9 @@ $user_data = check_login($con);
                     <a class="nav-link active" aria-current="page" href="mainpage.php">Home</a>
                     <a class="nav-link" href="#">Games</a>
                     <a class="nav-link" href="#">Privacy Policy</a>
-                    <a class="nav-link" href="#">Orders</a>
+                    <a class="nav-link" href="#">CART</a>
                     <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="logout.php">Logout</a>
                 </div>
             </div>
         </div>
@@ -44,7 +45,7 @@ $user_data = check_login($con);
     <div class="container">
         <!---HEADER--->
         <div class="row headerxd">
-
+            <p style="text-align: right; font-size: 25pt; color:white;">Welcome, <?php echo $user_data['username']; ?></p>
         </div>
         <!---CONTENT--->
         <div class="row content">
@@ -60,17 +61,41 @@ $user_data = check_login($con);
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2762.162802296226!2d20.41502241558182!3d46.18731887911618!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4744f434aaa55699%3A0xb10c72b4df8797c8!2sKiszombor%2C%20Pet%C5%91fi%20u.%2021%2C%206775!5e0!3m2!1shu!2shu!4v1646995037250!5m2!1shu!2shu" width="300" height="300" style="border:1;" allowfullscreen="" loading="lazy"></iframe>
                 </div>
             </div>
-            <div class="col-9">
-                Welcome, <?php echo $user_data['username']; ?>
-            </div>
+
+            <section class="container content-section col-9">
+                <h2 class="section-header" id="xbox">Games</h2>
+                <div class="shop-items">
+                    <div class="shopt-item">
+                        <?php
+                        $query = 'SELECT * FROM `xbox`';
+                        $xd = mysqli_query($con, $query);
+                        while ($sor = mysqli_fetch_array($xd)) {
+
+
+                            echo  "<form action='' method='POST'><div class='shop-item'>
+                                <span class='shop-item-title'>" . $sor["Nev"] . "</span>
+                                <img class='shop-item-image center' src='kepek/" . $sor["Kep"] . "'>
+                                <div class='shop-item-details'>
+						
+                                        <span class='shop-item-price'>Price: " . $sor["Ar"] . "</span>
+                                        <button class='btn btn-warning' type='submit' name='addtocart'>ADD TO CART</button>
+                                    </div>
+                                </div>
+                                <input type='hidden' name='invisid' value=" . $sor["ID"] . "></form>";
+                        }
+                        ?>
+                    </div>
+                </div>
+            </section>
+
         </div>
         <!---FOOTER--->
         <div class="row footer">
             <div class="col-3 linkcont">
 
             </div>
-            <div class="col-4">
-
+            <div class="col-4 copyright">
+                PUBLISHER: MICROSOFT CORPORATION <img src="kepek/microsoft.png" class="small-img" alt="Microsoft corp">
             </div>
             <div class="col-5 copyright">
                 © 2022 Nadoba, Inc. All rights reserved 6775 Kiszombor Petőfi utca 21.
