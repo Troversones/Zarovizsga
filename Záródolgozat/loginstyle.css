@@ -1,176 +1,246 @@
+@import url('https://fonts.googleapis.com/css2?family=League+Gothic&display=swap');
 * {
-  margin: 0;
-  padding: 0;
-  font-family: poppins;
+    margin: 0;
+    padding: 0;
+    font-family: poppins;
 }
+
 .content {
-  height: 100%;
-  width: 100%;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-    url(kepek/bg2.png);
-  background-position: center;
-  background-size: cover;
-  position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(kepek/bg2.png);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
 }
+
 a:link {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
 a:hover {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
 a:visited {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
 a:active {
-  color: white;
-  text-decoration: none;
+    color: white;
+    text-decoration: none;
 }
+
 .form-box {
-  width: 480px;
-  height: 480px;
-  position: relative;
-  margin: 6% auto;
-  background: linear-gradient(to right, #121418d7, #180808);
-  padding: 15px;
-  overflow: hidden;
-  opacity: 0.95;
-  animation: transitionIn 0.75s;
+    width: 480px;
+    height: 480px;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(to right, #121418d7, #180808);
+    padding: 15px;
+    overflow: hidden;
+    opacity: 0.95;
+    animation: transitionIn 0.75s;
 }
+
 .button-box {
-  width: 225px;
-  margin: 35px auto;
-  position: relative;
-
-  border-radius: 25px;
-  height: 50px;
+    width: 225px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 25px;
+    height: 50px;
 }
+
 .toggle-btn {
-  padding: 15px 40px;
-  cursor: pointer;
-  background: transparent;
-  border: 0;
-  outline: none;
-  position: relative;
-  font-size: 18px;
-  margin-left: 25px;
+    padding: 15px 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 18px;
+    margin-left: 25px;
 }
+
 #btn {
-  top: 0;
-  left: 0;
-  position: absolute;
-  width: 80%;
-  height: 100%;
-  background: linear-gradient(to right, #ff000093, #381212);
-  border-radius: 25px;
-  margin-left: 25px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(to right, #ff000093, #381212);
+    border-radius: 25px;
+    margin-left: 25px;
 }
+
 .social {
-  margin: 30px auto;
-  text-align: center;
+    margin: 30px auto;
+    text-align: center;
 }
+
 .gmail {
-  width: 40px;
-  height: 40px;
-  margin: 0 12px;
-
-  cursor: pointer;
-  border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 50%;
 }
+
 .fb {
-  width: 40px;
-  height: 40px;
-  margin: 0 12px;
+    width: 40px;
+    height: 40px;
+    margin: 0 12px;
     background-color: rgb(66 103 178);
-  cursor: pointer;
-  border-radius: 50%;
+    cursor: pointer;
+    border-radius: 50%;
 }
-.steam {
-  width: 40px;
-  height: 40px;
-  margin: 0 12px;
 
-  cursor: pointer;
-  border-radius: 50%;
+.steam {
+    width: 40px;
+    height: 40px;
+    margin: 0 12px;
+    cursor: pointer;
+    border-radius: 50%;
 }
+
 .input-group {
-  top: 180px;
-  position: absolute;
-  width: 385px;
-  transition: 0.5s;
+    top: 180px;
+    position: absolute;
+    width: 385px;
+    transition: 0.5s;
 }
+
 .input-field {
-  width: 100%;
-  padding: 10px 0;
-  margin: 5px 0;
-  border-left: 0;
-  border-top: 0;
-  border-right: 0;
-  border-bottom: 1px solid #fff;
-  outline: none;
-  background: transparent;
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+    border-left: 0;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
 }
+
 .submit-btn {
-  width: 85%;
-  padding: 10px 30px;
-  cursor: pointer;
-  display: block;
-  margin: auto;
-  background: linear-gradient(to right, #ff000093, #381212);
-  border: 0;
-  outline: none;
-  border-radius: 30px;
-  font-size: 20px;
-  color: white;
+    width: 85%;
+    padding: 10px 30px;
+    cursor: pointer;
+    display: block;
+    margin: auto;
+    background: linear-gradient(to right, #ff000093, #381212);
+    border: 0;
+    outline: none;
+    border-radius: 30px;
+    font-size: 20px;
+    color: white;
 }
+
 .csekbox {
-  margin: 30px 10px 30px 0;
+    margin: 30px 10px 30px 0;
 }
+
 span {
-  color: #fff;
-  font-size: 16px;
-  bottom: 68px;
-  position: absolute;
+    color: #fff;
+    font-size: 16px;
+    bottom: 68px;
+    position: absolute;
 }
+
 #login {
-  left: 50px;
+    left: 50px;
 }
+
 #register {
-  left: 50px;
+    left: 50px;
 }
 
 ::-webkit-input-placeholder {
-  /* Chrome/Opera/Safari */
-  color: white;
-  font-size: 16px;
+    /* Chrome/Opera/Safari */
+    color: white;
+    font-size: 16px;
 }
 
-input[type="password"]{
-  font-size: 16px;
-  color: white;
+input[type="password"] {
+    font-size: 16px;
+    color: white;
 }
 
 input[type="text"] {
-  font-size: 20px;
-  color: White;
+    font-size: 20px;
+    color: White;
 }
+
 input[type="email"] {
-  font-size: 20px;
-  color: White;
+    font-size: 20px;
+    color: White;
 }
+
 .Vissza {
-  font-size: 19px;
-  margin-left: 35px;
+    font-size: 19px;
+    margin-left: 35px;
 }
+
 @keyframes transitionIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to{
-    opacity: 1;
-    transform: translateY(0);
-  }
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    margin-top: 5rem;
+    font-size: 9rem;
+    font-family: 'League Gothic', sans-serif;
+    letter-spacing: 0.5rem;
+}
+
+.button-box2 {
+    width: 225px;
+    margin: 35px auto;
+    position: relative;
+    border-radius: 25px;
+    height: 50px;
+}
+
+#btn2 {
+    top: 0;
+    left: 0;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    background: linear-gradient(to right, #ff000093, #381212);
+    border-radius: 50px;
+    margin-left: 25px;
+}
+
+.toggle-btn2 {
+    padding: 15px 40px;
+    cursor: pointer;
+    background: transparent;
+    border: 0;
+    outline: none;
+    position: relative;
+    font-size: 1.5rem;
+    margin-left: 25px;
+}
+
+.box {
+    width: 80%;
+    position: relative;
+    margin: 6% auto;
+    background: linear-gradient(to right, #121418d7, #180808);
+    padding: 15px;
+    overflow: hidden;
+    opacity: 0.95;
+    animation: transitionIn 0.75s;
 }

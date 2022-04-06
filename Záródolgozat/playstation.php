@@ -51,8 +51,8 @@ $user_data = check_login($con);
         <div class="row content">
             <div class="col-4 linkcont">
                 <ul class="post-title">
-                    <li><a href="games.php" class="post active">XBOX</a></li>
-                    <li><a href="playstation.php" class="post">PLAYSTATION</a></li>
+                    <li><a href="games.php" class="post">XBOX</a></li>
+                    <li><a href="playstation.php" class="post active">PLAYSTATION</a></li>
                     <li><a href="battlenet.php" class="post">BATTLE.NET</a></li>
                     <li><a href="steam.php" class="post">STEAM</a></li>
                 </ul>
@@ -76,7 +76,7 @@ $user_data = check_login($con);
                 <div class="shop-items">
                     <div class="shopt-item">
                         <?php
-                        $query = 'SELECT * FROM `xbox`';
+                        $query = 'SELECT * FROM `playstation`';
                         $xd = mysqli_query($con, $query);
                         while ($sor = mysqli_fetch_array($xd)) {
 
@@ -135,7 +135,7 @@ $user_data = check_login($con);
 
             </div>
             <div class="col-4 copyright">
-                PUBLISHER: MICROSOFT CORPORATION <img src="kepek/microsoft.png" class="small-img" alt="Microsoft corp">
+                PUBLISHER: PLAYSTATION STUDIOS <img src="kepek/playstationlogo.jpg" class="small-img" alt="Microsoft corp">
             </div>
             <div class="col-5 copyright">
                 © 2022 Nadoba, Inc. All rights reserved 6775 Kiszombor Petőfi utca 21.
