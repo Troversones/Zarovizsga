@@ -34,8 +34,8 @@ $user_data = check_login($con);
                 <div class="navbar-nav nav-fill w-100">
                     <a class="nav-link active" aria-current="page" href="mainpage.php">Home</a>
                     <a class="nav-link" href="games.php">Games</a>
-                    <a class="nav-link" href="#">Privacy Policy</a>
-                    <a class="nav-link" href="#">About Us</a>
+                    <a class="nav-link" href="Privacy.html">Privacy Policy</a>
+                    <a class="nav-link" href="aboutus.html">About Us</a>
                     <a class="nav-link" href="logout.php">Logout</a>
                 </div>
             </div>
@@ -49,9 +49,17 @@ $user_data = check_login($con);
         </div>
         <!---CONTENT--->
         <div class="row content">
-            asd
-            asd
-            
+            <h2 class="section-header"> Top Selling Games This Week</h2>
+            <div class="col col-3">
+                <div class="card bg-dark" style="width: 18rem;">
+                    <img src="kepek/seaofthievescard.jpg" class="card-img-top" alt="Sea Of Thieves">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning"  style="font-size: 2rem;text-align:center;">Sea Of Thieves</h5>
+                        <p class="card-text text-warning" style="font-size: 1.5rem;">Two pirate worlds collide for an earth-shattering original story in Sea of Thieves: A Pirate’s Life! </p>
+                    </div>
+                </div>
+            </div>
+
 
         </div>
 

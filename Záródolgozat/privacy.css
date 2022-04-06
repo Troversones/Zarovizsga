@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: poppins;
+    }
+    .Fo
+    {
+    width:55%;
+    margin-bottom: 0px;
+    
+    
+    
+    }
+    body{
+        background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(kepek/bg2.png);
+        width: 100%;
+                height: 100vh;
+        -webkit-background-size:cover;
+        background-size: cover;
+        background-position:center center;
+        position: relative;
+        background-attachment: fixed;
+    
+    }
+    .ul-navigacio
+    {
+    text-align: center;
+    list-style:none;
+    margin-top: 30px;
+    
+    
+    }
+    .ul-navigacio li{
+    display: inline-block;
+    
+    
+    
+    }
+    .ul-navigacio li a{
+        display: inline-block;
+        color:#fff;
+        text-decoration: none;
+        padding: 5px 20px;
+        
+        font-size: 1.5rem;
+        }
+    .ul-navigacio li a:hover{
+    background: rgb(12, 8, 8);
+    color: #fff;
+    border-bottom: outset 3px yellow;
+    
+    }
+    
+    .privacy
+    {
+        padding: 35px;
+        margin: 0 auto;
+        width: 750px;
+        background-color: rgb(32, 15, 15);
+        color: rgb(212, 212, 212);
+        font-size: 19px;
+        opacity: 0.9;
+        text-align: justify;
+        
+    }   
+    
+    .Contacts
+{
+    padding: 35px;
+    margin: 0 auto;
+    width: 90%;
+    background: linear-gradient(to right, #23282e93,#381212);
+    color: rgb(212, 212, 212);
+    font-size: 19px;
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+.fb{
+    width: 40px;
+    height: 40px;
+    margin: 0 12px;
+    background-color: rgb(66 103 178);
+    cursor: pointer;
+    border-radius: 50%;
+    }
+    .steam{
+        width: 40px;
+        height: 40px;
+        margin: 0 12px;
+        
+        cursor: pointer;
+        border-radius: 50%;
+        
+        }   
+        .github{
+            width: 40px;
+        height: 40px;
+        margin: 0 12px;
+        background-color: rgb(255, 255, 255);
+        cursor: pointer;
+        border-radius: 50%;
+        }
+h3{
+    padding-top: 2rem;
+    text-align: left;
+    font-weight: bold;
+}
+p{
+    text-align: left;
+}
+.small-img{
+    width: 225px;
+    height: 225px;
+}
+    

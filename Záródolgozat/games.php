@@ -123,7 +123,7 @@ $user_data = check_login($con);
             <div class="modal-footer">
               <p class="small-font">TOTAL: <span id="sumprice"></span></p>
               <button type="button" class="btn btn-secondary big-btn" data-bs-dismiss="modal">Close</button>
-              <button type="button" class="btn btn-primary big-btn">Finalize Purchase</button>
+              <button type="button" class="btn btn-primary big-btn finalize">Finalize Purchase</button>
             </div>
           </div>
         </div>

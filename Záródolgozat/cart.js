@@ -23,6 +23,12 @@ function ready() {
         button.addEventListener("click", addToCartClicked);
     }
 
+    let finalizePurchase = document.getElementsByClassName('finalize');
+    for (let i = 0; i < finalizePurchase.length; i++) {
+        let button = finalizePurchase[i];
+        button.addEventListener("click", purchaseDone);
+    }
+
     document.getElementsByClassName('btn-purchase')[0].addEventListener('click', purchaseClicked);
 }
 
@@ -167,4 +173,9 @@ function generateKey() {
 
     let key = result.join("-");
     return key;
+}
+
+function purchaseDone(){
+    alert("Thank you for your purchase!");
+    location.reload();
 }
