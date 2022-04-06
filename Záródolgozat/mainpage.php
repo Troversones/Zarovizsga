@@ -52,15 +52,80 @@ $user_data = check_login($con);
             <h2 class="section-header"> Top Selling Games This Week</h2>
             <div class="col col-3">
                 <div class="card bg-dark" style="width: 18rem;">
-                    <img src="kepek/seaofthievescard.jpg" class="card-img-top" alt="Sea Of Thieves">
+                    <img src="kepek/seaofthievescard.jpg" class="card-img-top card-kep" alt="Sea Of Thieves">
                     <div class="card-body">
-                        <h5 class="card-title text-warning"  style="font-size: 2rem;text-align:center;">Sea Of Thieves</h5>
+                        <h5 class="card-title text-warning" style="font-size: 2rem;text-align:center;">Sea Of Thieves</h5>
                         <p class="card-text text-warning" style="font-size: 1.5rem;">Two pirate worlds collide for an earth-shattering original story in Sea of Thieves: A Pirate’s Life! </p>
                     </div>
                 </div>
             </div>
-
-
+            <div class="col col-3">
+                <div class="card bg-dark" style="width: 18rem;">
+                    <img src="kepek/gotcard.jpeg" class="card-img-top card-kep" alt="Ghost of Tsushima">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning" style="font-size: 2rem;text-align:center;">Ghost of Tsushima</h5>
+                        <p class="card-text text-warning" style="font-size: 1.5rem;">Ghost of Tsushima is a 2020 action-adventure game developed by Sucker Punch Productions and published by Sony Interactive Entertainment.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-3">
+                <div class="card bg-dark" style="width: 18rem;">
+                    <img src="kepek/overwatchcard.jpg" class="card-img-top card-kep" alt="Overwatch">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning" style="font-size: 2rem;text-align:center;">Overwatch</h5>
+                        <p class="card-text text-warning" style="font-size: 1.5rem;">Overwatch is a colorful team-based action game starring a diverse cast of powerful heroes. Travel the world, build a team, and contest objectives in exhilarating 6v6 combat. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-3">
+                <div class="card bg-dark" style="width: 18rem;">
+                    <img src="kepek/terrariacard.jpg" class="card-img-top card-kep" alt="Terraria">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning" style="font-size: 2rem;text-align:center;">Terraria</h5>
+                        <p class="card-text text-warning" style="font-size: 1.5rem;">The very world is at your fingertips as you fight for survival, fortune, and glory. Delve deep into cavernous expanses, seek out ever-greater foes to test your mettle in combat! </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!---UPCOMING GAMES CONTENT--->
+        <div class="row content">
+            <h2 class="section-header"> Upcoming games</h2>
+            <div class="col col-3">
+                <div class="card bg-dark" style="width: 18rem;">
+                    <img src="kepek/chgate.jpg" class="card-img-top card-kep" alt="Chaos Gate Daemonhunters">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning" style="font-size: 2rem;text-align:center;">Chaos Gate Daemonhunters</h5>
+                        <p class="card-text text-warning" style="font-size: 1.5rem;">Lead humanity’s greatest weapon, the Grey Knights, against the corrupting forces of Chaos in this brutal and fast-paced turn-based tactical RPG.  </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-3">
+                <div class="card bg-dark" style="width: 18rem;">
+                    <img src="kepek/dolmencard.jpg" class="card-img-top card-kep" alt="Dolmen">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning" style="font-size: 2rem;text-align:center;">Dolmen</h5>
+                        <p class="card-text text-warning" style="font-size: 1.5rem;">Dolmen casts players onto a hostile alien world known as Revion Prime. Your job? Bring back samples of a crystal with particularly unique properties; the so-called Dolmen.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-3">
+                <div class="card bg-dark" style="width: 18rem;">
+                    <img src="kepek/sniperelitecard.jpg" class="card-img-top card-kep" alt="Sniper Elite 5">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning" style="font-size: 2rem;text-align:center;">Sniper Elite 5</h5>
+                        <p class="card-text text-warning" style="font-size: 1.5rem;">France, 1944 – As part of a covert US Rangers operation to weaken the Atlantikwall fortifications along the coast of Brittany, elite marksman Karl Fairburne makes contact with the French Resistance. </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col col-3">
+                <div class="card bg-dark" style="width: 18rem;">
+                    <img src="kepek/atomiccard.jpg" class="card-img-top card-kep" alt="Atomic">
+                    <div class="card-body">
+                        <h5 class="card-title text-warning" style="font-size: 2rem;text-align:center;">Atomic Heart</h5>
+                        <p class="card-text text-warning" style="font-size: 1.5rem;">A global system failure happens at the Soviet Facility №3826 that leads machinery to rebel against the people. </p>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <!---FOOTER--->
